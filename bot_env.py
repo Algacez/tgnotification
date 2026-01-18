@@ -24,8 +24,8 @@ logger = logging.getLogger(__name__)
 
 # 从环境变量读取配置
 BOT_TOKEN = os.getenv('BOT_TOKEN')
-WEBHOOK_URL = os.getenv('WEBHOOK_URL', 'https://ntfy.282994.xyz/telegram')
-WEBHOOK_USER = os.getenv('WEBHOOK_USER', 'ntfyadmin')
+WEBHOOK_URL = os.getenv('WEBHOOK_URL', 'https://123.com/123')
+WEBHOOK_USER = os.getenv('WEBHOOK_USER', 'admin')
 WEBHOOK_PASSWORD = os.getenv('WEBHOOK_PASSWORD', '123')
 
 if not BOT_TOKEN:
